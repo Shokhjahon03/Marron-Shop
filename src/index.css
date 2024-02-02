@@ -1,0 +1,54 @@
+html{
+  overflow-x: hidden;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body
+{
+font-family: sans-serif;
+}
+#navbar {
+  /* background-color: white; */
+  height: 61px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: top 0.3s;
+}
+.hero{
+  background-image: url('./assets/bgimg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cards{
+  background-image: url('./assets/bg2img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flower{
+  background-image: url('./assets/bg3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mi{
+  background-image: url('./assets/bg4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
